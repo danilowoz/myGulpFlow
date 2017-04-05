@@ -46,9 +46,10 @@ gulp.task('start', ['build'], () => {
         server: "./"
     })
     gulp.watch( path.src.css, ['css'] )
-    gulp.watch( path.src.js, ['link', 'js'] )
+    gulp.watch( path.src.js, ['lint', 'js'] )
     gulp.watch( '**/*.html').on('change', browserSync.reload )
 })
 
 gulp.task('build', ['css', 'js'])
+gulp.task('default', ['build'])
 

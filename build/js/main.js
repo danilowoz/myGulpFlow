@@ -1,1 +1,1 @@
-"use strict";var foo=function(){console.log("dois cu")};foo();
+"use strict";var cu=0,foo=function(){cu=1};cu&&foo();
