@@ -1,0 +1,1 @@
+"use strict";var foo=function(){console.log("dois cu")};foo();
