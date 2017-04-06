@@ -1,1 +1,0 @@
-"use strict";var cu=0,foo=function(){cu=1};cu&&foo();
